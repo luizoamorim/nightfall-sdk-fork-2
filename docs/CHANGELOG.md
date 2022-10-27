@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/luizoamorim/nightfall-sdk-fork-2/compare/v1.5.0...v1.6.0) (2022-10-27)
+
+
+### Features
+
+* cd ([fb9a5de](https://github.com/luizoamorim/nightfall-sdk-fork-2/commit/fb9a5ded13d5167983dc7b98c612ef7ad1e10d87))
+
 # [1.5.0](https://github.com/luizoamorim/nightfall-sdk-fork-2/compare/v1.4.0...v1.5.0) (2022-10-27)
 
 
