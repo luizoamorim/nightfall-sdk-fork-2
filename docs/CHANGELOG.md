@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/luizoamorim/nightfall-sdk-fork-2/compare/v1.1.0...v1.2.0) (2022-10-27)
+
+
+### Features
+
+* one more test ([1294610](https://github.com/luizoamorim/nightfall-sdk-fork-2/commit/12946102883b5fdd6414b66131d6d8dbaaa96a15))
+
 # [1.1.0](https://github.com/luizoamorim/nightfall-sdk-fork-2/compare/v1.0.0...v1.1.0) (2022-10-27)
 
 
