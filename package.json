@@ -10,9 +10,6 @@
   ],
   "main": "dist/cjs/libs/user/index.js",
   "module": "dist/libs/user/index.js",
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/luizoamorim/nightfall-sdk-fork-2.git"
@@ -69,7 +66,7 @@
     "build:cjs": "tsc --module CommonJS -outDir dist/cjs",
     "lint": "eslint . --ext .ts",
     "prettier": "prettier --check .",
-    "semantic-release": "cp -r package.json dist/ && semantic-release",
+    "semantic-release": "cp -r package.json ./dist && semantic-release",
     "test:ganache": "DOTENV_CONFIG_PATH=./examples/scripts/.env.ganache jest --setupFiles dotenv/config",
     "test:goerli": "DOTENV_CONFIG_PATH=./examples/scripts/.env.goerli jest --setupFiles dotenv/config",
     "eg:ganache:deposit": "ts-node -r dotenv/config examples/scripts/txDeposit.ts dotenv_config_path=./examples/scripts/.env.ganache dotenv_config_debug=true",
@@ -117,7 +114,7 @@
       [
         "@semantic-release/npm",
         {
-          "pkgRoot": "dist"
+          "pkgRoot": "./dist"
         }
       ],
       [
@@ -126,8 +123,7 @@
           "assets": [
             "dist/**/*.{js,ts}",
             "docs",
-            "package.json",
-            "README.md"
+            "package.json"
           ],
           "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }
