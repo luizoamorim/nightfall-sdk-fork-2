@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/luizoamorim/nightfall-sdk-fork-2/compare/v1.4.0...v1.5.0) (2022-10-27)
+
+
+### Features
+
+* correct path ([b8c3dc4](https://github.com/luizoamorim/nightfall-sdk-fork-2/commit/b8c3dc4111f10879f5f1a7e2658aed6e3e3ea3d1))
+
 # [1.4.0](https://github.com/luizoamorim/nightfall-sdk-fork-2/compare/v1.3.0...v1.4.0) (2022-10-27)
 
 
