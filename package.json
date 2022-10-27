@@ -8,7 +8,7 @@
     "nightfall_3",
     "nf3"
   ],
-  "main": "cjs/libs/user/index.js",
+  "main": "libs/user/index.js",
   "module": "libs/user/index.js",
   "repository": {
     "type": "git",
@@ -61,7 +61,7 @@
     }
   },
   "scripts": {
-    "build": "rm -rf /dist && npm run build:esm && npm run build:cjs",
+    "build": "rm -rf /dist && npm run build:esm",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS -outDir dist/cjs",
     "lint": "eslint . --ext .ts",
