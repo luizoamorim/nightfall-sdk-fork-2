@@ -8,8 +8,8 @@
     "nightfall_3",
     "nf3"
   ],
-  "main": "dist/cjs/libs/user/index.js",
-  "module": "dist/libs/user/index.js",
+  "main": "cjs/libs/user/index.js",
+  "module": "libs/user/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/luizoamorim/nightfall-sdk-fork-2.git"
